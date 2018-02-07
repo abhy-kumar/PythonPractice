@@ -16,6 +16,7 @@ for i in range(0, n):
 
 fpw = ''.join((pw))
 print(fpw)
+print("The password is already generated to clipboard.")
 
 # copy directly to clipboard if a password is generated.
 df = pd.DataFrame([fpw])
