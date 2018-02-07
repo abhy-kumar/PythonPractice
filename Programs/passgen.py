@@ -1,3 +1,5 @@
+# This program generates a password.
+
 import random
 import pandas as pd
 
