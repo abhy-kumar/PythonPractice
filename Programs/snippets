@@ -1,0 +1,40 @@
+for number in numArray:
+    sum_integer += number
+
+numArray = map(int, input().split())
+
+// ---
+
+N = input()
+
+# Get the input
+numArray = map(int, input().split())
+
+sum_integer = 0
+# Write the logic to add these numbers here
+for number in numArray:
+    sum_integer += number
+
+# Print the sum
+print(sum_integer)
+--------------
+  print(i, end=" ")
+--------------
+N = int(input())
+
+# Get the array
+numArrayA = list(map(int, input().split()))
+numArrayB = list(map(int, input().split()))
+
+sumArray = []
+
+# Write the logic here:
+for i in range(0, N):
+    sumArray.append(numArrayA[i]+numArrayB[i])
+
+
+# Print the sumArray
+for element in sumArray:
+    print(element, end=" ")
+
+print("")

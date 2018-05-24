@@ -1,13 +1,8 @@
+# Get L and R from the input
+L, R = map(int, input().split())
 
-t = int(input())
+# Write here the logic to print all integers between L and R
 
-for i in range(0,t):
-    d1 = 1
-    count = 1
-    d = int(input())
-    while(d1<d):
-        d1 = 1 + count * 9
-        count = count + 1
-    print(count)
-
+for i in range(L,R):
+    print(i)
 
