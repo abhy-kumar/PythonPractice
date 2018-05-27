@@ -23,3 +23,6 @@ print("\nThe password is already copied to clipboard.")
 # copy directly to clipboard if a password is generated.
 df = pd.DataFrame([fpw])
 df.to_clipboard(index=False, header=False)
+
+
+# print ({'Z '}, {'A '}, {'B '}, {'C '}, {'D '}, {'E '}).format(l[i % len(l)], l[(i+1) % len(l)], l[(i+2) % len(l)], l[(i+3) % len(l)], l[(i+4) % len(l)], l[(i+5) % len(l)])
