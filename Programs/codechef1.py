@@ -1,8 +1,22 @@
-# Get L and R from the input
-L, R = map(int, input().split())
+#
+def find(x, l, r, mylist):
+    count = 0
+    for i in range(l - 1, r):
+        if (x == mylist[i]):
+            count = count + 1
+    print(count)
 
-# Write here the logic to print all integers between L and R
 
-for i in range(L,R):
-    print(i)
+n = input()
+n = int(n)
 
+mylist = []
+
+mylist = list(map(int, input().split()))
+
+q = input()
+q = int(q)
+
+for i in range(0, q):
+    x, L, R = map(int, input().split())
+    find(x, L, R, mylist)

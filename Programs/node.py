@@ -1,7 +1,9 @@
 def collatz(x):
-	if x % 2 == 0:
-		return x//2
-	return x*3 + 1
+    if x % 2 == 0:
+        print(x // 2)
+    else:
+        print(x * 3 + 1)
+
 
 x = int(input())
 collatz(x)
